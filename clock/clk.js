@@ -4,6 +4,7 @@ const clocksec = document.querySelector('.clocksec');
 
 
 
+
 setInterval(()=>{
     d =new Date();
 htime=d.getHours();
