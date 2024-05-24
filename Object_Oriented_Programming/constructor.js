@@ -30,3 +30,13 @@ function Dog(){
  }
 
  */
+
+ // How is it equivalent to object, using the New Keyword.
+// The new operator is used when calling a constructor
+// Without the new operator, this inside the constructor would not point to the newly created object, giving unexpected results
+
+let hound= new Dog();
+
+//isnt it like accesing object ?
+console.log(hound.name)
+console.log(hound.color)
