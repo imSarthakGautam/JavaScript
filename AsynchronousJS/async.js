@@ -12,6 +12,7 @@ let on = function(){
         console.log("button clicked : bulb on")
         flag=1
         } 
+        
         else {
             bulb.style.backgroundColor="lightblue";
             console.log("button clicked again : bulb off")
