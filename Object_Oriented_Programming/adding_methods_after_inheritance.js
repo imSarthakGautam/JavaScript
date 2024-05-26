@@ -18,10 +18,6 @@ Dog.prototype.constructor=Dog;
    console.log("Woof!")
  }
 
-
-
-
-
 let beagle = new Dog();
 //property derived from Animal
 beagle.eat()

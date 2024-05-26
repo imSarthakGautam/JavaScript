@@ -1,3 +1,6 @@
+I//n JavaScript, objects have a special hidden property [[Prototype]] (as named in the specification),
+// that is either null or references another object. That object is called “a prototype”:
+
 function Dog(name) {
     this.name = name;
   }

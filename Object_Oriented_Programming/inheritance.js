@@ -13,6 +13,9 @@ let animal = {
   
   rabbit.__proto__ = animal; // sets rabbit.[[Prototype]] = animal |oR| sets animal to be the prototype of rabbit
 
+
+
+
   //Now if we read a property from rabbit, and it’s missing, JavaScript will automatically take it from animal.
   // we can find both properties in rabbit now:
 
