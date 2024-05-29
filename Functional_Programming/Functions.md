@@ -31,3 +31,14 @@ Functional programming is about:
 When functions are passed in to or returned from another function, then those functions which were passed in or returned can be called a lambda.
 
 ___
+
+#### Mutations
+- One of the core principles of functional programming is to not change things. Changes lead to bugs. 
+
+- It's easier to prevent bugs knowing that your functions don't change anything, including the function arguments or any global variable.
+
+- create new variables and objects and return them if need be from a function.
+
+- Recall that in functional programming, changing or altering things is called mutation, and the outcome is called a side effect
+
+- Declare function parameters - any computation inside a function depends only on the arguments passed to the function, and not on any global object or variable.
