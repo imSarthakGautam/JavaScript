@@ -18,7 +18,7 @@ function binaryAgent(str) {
   console.log(arr3)
   
   console.log(` The final string was : ${arr3.join("")}`)
-    return str;
+    return arr3.join("");
   
   }
   
