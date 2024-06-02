@@ -20,23 +20,23 @@ For example,
 function whatIsInAName(collection, source) {
 
     let newArr=[]
-    for (let i=0;i<collection.length;i++){
-    
-      for (let j in source){
-        if ( collection[i][j]==source[j]){
-          //match found should return obj in collection contating that match.
+    for (let i=0;i<collection.length;i++) {
+     let mismatch=false;
+        for (let j in source){
+          if ( collection[i][j]!==source[j]){
+          //match found should return obj in collection contating that match. 
+             mismatch=true;
+             }
+        }
+        if (!mismatch){  
     newArr.push(collection[i])
         console.log(newArr)
-        return newArr;
-    
-        //this solution only returns for one match case
-    
-    
+          }
         }
+        return newArr;
+        
       }
-     }
-    }
-    
+     
     
     
     whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
