@@ -41,4 +41,4 @@ ___
 
 - Recall that in functional programming, changing or altering things is called mutation, and the outcome is called a side effect
 
-- Declare function parameters - any computation inside a function depends only on the arguments passed to the function, and not on any global object or variable.
+- Declare function parameters - any computation inside a function depends only on the arguments passed to the function, and not on any global object or variables.
